@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+  left: 20%;
+  bottom: -19px; /* Adjust this value to align with the bottom border */
+  width: 60%;
+
+  height: 2px; /* Adjust this value to change the thickness of the underline */
+  background-color: #dc4a2d; /* Match the color with the text color */
+}
